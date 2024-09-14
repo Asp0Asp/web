@@ -1,0 +1,61 @@
+#containerMenu{
+    display: flex;
+    justify-content: space-around;
+}
+
+#containerMenu > ul{
+    display: flex;
+    gap: 10px;
+}
+
+#test{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+ol{
+    margin-bottom: 10px;
+}
+
+h1{
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+}
+
+#menu ol{
+    background-color: bisque;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+#container{
+    text-align: center ;
+}
+
+#container a{
+    display: block;
+}
+
+.botao-estilizado {
+    background-color: #8155d9; /* Cor de fundo roxo */
+    color: #f6f2fc; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Permite definir largura e altura */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem ao redor do botão */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    border: none; /* Remove borda padrão */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.botao-estilizado:hover {
+    background-color: #37146b; /* Cor de fundo ao passar o mouse */
+}
+
